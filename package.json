@@ -4,7 +4,8 @@
   "description": "N/A",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --inline --config config/webpack.dev.js --progress --port 1220"
+    "build": "babel-node server.js",
+    "start": "webpack --config config/webpack.dev.js && npm run build"
   },
   "dependencies": {
     "@angular/common": "^4.0.2",
@@ -15,8 +16,11 @@
     "@angular/platform-browser": "^4.0.2",
     "@angular/platform-browser-dynamic": "^4.0.2",
     "@angular/router": "^4.0.2",
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
     "core-js": "^2.4.1",
     "es2015": "0.0.0",
+    "express": "^4.15.3",
     "rxjs": "^5.1.0",
     "zone.js": "^0.8.4"
   },
@@ -51,7 +55,7 @@
     "ts-loader": "~2.0.3",
     "tslint": "~4.5.0",
     "typescript": "~2.2.0",
-    "webpack": "~2.2.0",
+    "webpack": "^2.2.1",
     "webpack-dev-server": "~2.2.0",
     "webpack-merge": "~2.4.0"
   },

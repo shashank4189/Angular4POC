@@ -1,0 +1,16 @@
+{
+  "WEB_PORT":8080,
+  "REDIS_PORT":6379,
+  "DATABASENAME":"ClientTestDB",
+  "USERNAME":"postgres",
+  "PASSWORD":"compunnel",
+  "DATABASEHOST":"10.1.7.115",
+  "DATABASEENGINE":"postgres",
+  "JWT_SECRET_KEY":"meesam",
+  "SMTP": {
+    "USERNAME": "mrigendrasinha@gmail.com",
+    "PASSWORD": "kkptdigzngdzqxce"
+  },
+  "ENCRYPTION_KEY":"Rl#H77vtJiwKS!W-alkSifYKD-Nj7Lb4",
+  "PIUrl":"http://nsslabsstaging.publishinteractive.com/api/v1/"
+}
